@@ -104,7 +104,7 @@ msgstr "Key Akismet API bao gồm 12 kí tự. Có thể lấy từ akismet.com/
 msgid "Your site can&#8217;t connect to the Akismet servers."
 msgstr "Website của bạn không thể kết nối tới máy chủ của Akismet."
 
-#. translators: %s is the wp-config.php file
+#. translators: %s is the -config.php file
 #: views/predefined.php:7
 msgid "An Akismet API key has been defined in the %s file for this site."
 msgstr "API Key được xác định trong file %s của website này."
@@ -130,7 +130,7 @@ msgstr "Akismet Anti-Spam"
 msgid "Connect with API key"
 msgstr "Kết nối với API key"
 
-#. translators: %s is the WordPress.com username
+#. translators: %s is the .com username
 #: views/connect-jp.php:23 views/connect-jp.php:58
 msgid "You are connected as %s."
 msgstr "Bạn đã kết nối bằng %s."
@@ -337,8 +337,8 @@ msgid "This comment was reported as spam."
 msgstr "Bình luận này bị báo cáo là bình luận rác."
 
 #. Author URI of the plugin
-msgid "https://automattic.com/wordpress-plugins/"
-msgstr "https://automattic.com/wordpress-plugins/"
+msgid "https://automattic.com/-plugins/"
+msgstr "https://automattic.com/-plugins/"
 
 #. Author of the plugin
 msgid "Automattic"
@@ -360,12 +360,12 @@ msgstr "Liên hệ đội hỗ trợ Akismet"
 msgid "No worries! Get in touch and we&#8217;ll sort this out."
 msgstr "Đừng lo lắng! Hãy liên lạc và chúng tôi sẽ giúp bạn giải quyết"
 
-#. translators: %s is the WordPress.com email address
+#. translators: %s is the .com email address
 #: views/connect-jp.php:44
 msgid "Your subscription for %s is suspended."
 msgstr "Gói dịch vụ của %s của bạn đã bị khoá."
 
-#. translators: %s is the WordPress.com email address
+#. translators: %s is the .com email address
 #: views/connect-jp.php:36
 msgid "Your subscription for %s is cancelled."
 msgstr "Gói dịch vụ của %s đã bị huỷ."
@@ -507,12 +507,12 @@ msgid "Past six months"
 msgstr "6 tháng trước"
 
 #: class.akismet.php:1496
-msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
-msgstr "Hãy <a href=\"%1$s\">nâng cấp Wordpress</a> tới phiên bản hiện tại, hoặc <a href=\"%2$s\">hạ cấp plugin Akismet xuống 2.4</a>."
+msgid "Please <a href=\"%1$s\">upgrade </a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
+msgstr "Hãy <a href=\"%1$s\">nâng cấp </a> tới phiên bản hiện tại, hoặc <a href=\"%2$s\">hạ cấp plugin Akismet xuống 2.4</a>."
 
 #: class.akismet.php:1496
-msgid "Akismet %s requires WordPress %s or higher."
-msgstr "Akismet %s yêu cầu phiên bản WordPress %s hoặc cao hơn."
+msgid "Akismet %s requires  %s or higher."
+msgstr "Akismet %s yêu cầu phiên bản  %s hoặc cao hơn."
 
 #: class.akismet-admin.php:639
 msgid "Akismet cleared this comment during an automatic retry."

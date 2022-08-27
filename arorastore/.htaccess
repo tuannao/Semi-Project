@@ -1,6 +1,6 @@
 
-# BEGIN WordPress
-# Các nội dung nằm giữa "BEGIN WordPress" và "END WordPress" được tạo ra tự động, và chỉ nên được thay đổi thông qua các filter của WordPress. Mọi thay đổi tới thành phần này có thể sẽ bị mất và ghi đè.
+# BEGIN 
+# Các nội dung nằm giữa "BEGIN " và "END " được tạo ra tự động, và chỉ nên được thay đổi thông qua các filter của . Mọi thay đổi tới thành phần này có thể sẽ bị mất và ghi đè.
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
@@ -11,4 +11,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 </IfModule>
 
-# END WordPress
+# END 

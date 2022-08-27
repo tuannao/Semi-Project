@@ -1,8 +1,8 @@
 <?php
 /**
- * XML-RPC protocol support for WordPress
+ * XML-RPC protocol support for 
  *
- * @package WordPress
+ * @package 
  */
 
 /**
@@ -27,8 +27,8 @@ if ( isset( $HTTP_RAW_POST_DATA ) ) {
 }
 // phpcs:enable
 
-/** Include the bootstrap for setting up WordPress environment */
-require_once __DIR__ . '/wp-load.php';
+/** Include the bootstrap for setting up  environment */
+require_once __DIR__ . '/load.php';
 
 if ( isset( $_GET['rsd'] ) ) { // http://cyber.law.harvard.edu/blogs/gems/tech/rsd.html
 	header( 'Content-Type: text/xml; charset=' . get_option( 'blog_charset' ), true );
@@ -36,11 +36,11 @@ if ( isset( $_GET['rsd'] ) ) { // http://cyber.law.harvard.edu/blogs/gems/tech/r
 	?>
 <rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
 	<service>
-		<engineName>WordPress</engineName>
-		<engineLink>https://wordpress.org/</engineLink>
+		<engineName></engineName>
+		<engineLink>https://.org/</engineLink>
 		<homePageLink><?php bloginfo_rss( 'url' ); ?></homePageLink>
 		<apis>
-			<api name="WordPress" blogID="1" preferred="true" apiLink="<?php echo site_url( 'xmlrpc.php', 'rpc' ); ?>" />
+			<api name="" blogID="1" preferred="true" apiLink="<?php echo site_url( 'xmlrpc.php', 'rpc' ); ?>" />
 			<api name="Movable Type" blogID="1" preferred="false" apiLink="<?php echo site_url( 'xmlrpc.php', 'rpc' ); ?>" />
 			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="<?php echo site_url( 'xmlrpc.php', 'rpc' ); ?>" />
 			<api name="Blogger" blogID="1" preferred="false" apiLink="<?php echo site_url( 'xmlrpc.php', 'rpc' ); ?>" />
@@ -61,9 +61,9 @@ if ( isset( $_GET['rsd'] ) ) { // http://cyber.law.harvard.edu/blogs/gems/tech/r
 	exit;
 }
 
-require_once ABSPATH . 'wp-admin/includes/admin.php';
-require_once ABSPATH . WPINC . '/class-IXR.php';
-require_once ABSPATH . WPINC . '/class-wp-xmlrpc-server.php';
+require_once ABSPATH . 'admin/includes/admin.php';
+require_once ABSPATH . INC . '/class-IXR.php';
+require_once ABSPATH . INC . '/class-xmlrpc-server.php';
 
 /**
  * Posts submitted via the XML-RPC interface get that title
@@ -80,11 +80,11 @@ $post_default_title = '';
  *
  * @param string $class The name of the XML-RPC server class.
  */
-$wp_xmlrpc_server_class = apply_filters( 'wp_xmlrpc_server_class', 'wp_xmlrpc_server' );
-$wp_xmlrpc_server       = new $wp_xmlrpc_server_class;
+$_xmlrpc_server_class = apply_filters( '_xmlrpc_server_class', '_xmlrpc_server' );
+$_xmlrpc_server       = new $_xmlrpc_server_class;
 
 // Fire off the request.
-$wp_xmlrpc_server->serve_request();
+$_xmlrpc_server->serve_request();
 
 exit;
 
@@ -97,7 +97,7 @@ exit;
  * @param string $io Whether input or output
  * @param string $msg Information describing logging reason.
  */
-function logIO( $io, $msg ) { // phpcs:ignore WordPress.NamingConventions.ValidFunctionName.FunctionNameInvalid
+function logIO( $io, $msg ) { // phpcs:ignore .NamingConventions.ValidFunctionName.FunctionNameInvalid
 	_deprecated_function( __FUNCTION__, '3.4.0', 'error_log()' );
 	if ( ! empty( $GLOBALS['xmlrpc_logging'] ) ) {
 		error_log( $io . ' - ' . $msg );

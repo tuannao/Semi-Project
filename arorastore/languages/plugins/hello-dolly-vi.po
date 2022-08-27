@@ -28,5 +28,5 @@ msgid "https://ma.tt/"
 msgstr "https://ma.tt/"
 
 #. Plugin URI of the plugin
-msgid "https://wordpress.org/plugins/hello-dolly/"
-msgstr "https://wordpress.org/plugins/hello-dolly/"
+msgid "https://.org/plugins/hello-dolly/"
+msgstr "https://.org/plugins/hello-dolly/"

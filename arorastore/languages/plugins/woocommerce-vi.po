@@ -277,8 +277,8 @@ msgstr "Bước kế tiếp "
 #: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:173
 #: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:216
 #: src/Admin/Features/PaymentGatewaySuggestions/DefaultPaymentGateways.php:251
-msgid "Manage transactions without leaving your WordPress Dashboard. Only with WooCommerce Payments."
-msgstr "Quản lý các giao dịch mà không cần rời khỏi Bảng điều khiển của WordPress. Chỉ bằng WooCommerce Payments."
+msgid "Manage transactions without leaving your  Dashboard. Only with WooCommerce Payments."
+msgstr "Quản lý các giao dịch mà không cần rời khỏi Bảng điều khiển của . Chỉ bằng WooCommerce Payments."
 
 #: includes/class-wc-post-types.php:344
 msgid "Product Link"
@@ -626,8 +626,8 @@ msgid "Let's go"
 msgstr "Hãy bắt đầu"
 
 #: src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:69
-msgid "By setting up, you are agreeing to the <a href=\"https://wordpress.com/tos/\" target=\"_blank\">Terms of Service</a>"
-msgstr "Bạn đồng ý với <a href=\"https://wordpress.com/tos/\" target=\"_blank\">Quy định sử dụng dịch vụ</a> của chúng tôi"
+msgid "By setting up, you are agreeing to the <a href=\"https://.com/tos/\" target=\"_blank\">Terms of Service</a>"
+msgstr "Bạn đồng ý với <a href=\"https://.com/tos/\" target=\"_blank\">Quy định sử dụng dịch vụ</a> của chúng tôi"
 
 #: src/Internal/ProductAttributesLookup/DataRegenerator.php:318
 #: assets/client/admin/app/index.js:2 assets/client/admin/components/index.js:2
@@ -1378,8 +1378,8 @@ msgstr "Cập nhật cơ sở dữ liệu WooCommerce"
 #. translators: 1: Link to docs 2: Close link.
 #: includes/admin/notes/class-wc-notes-run-db-update.php:154
 #: includes/admin/views/html-notice-update.php:28
-msgid "The database update process runs in the background and may take a little while, so please be patient. Advanced users can alternatively update via %1$sWP CLI%2$s."
-msgstr "Quá trình cập nhật cơ sở dữ liệu sẽ chạy nền và sẽ mất chút thời gian, hãy kiên nhẫn. Người dùng cao cấp có thể cập nhật thay thế qua %1$sWP CLI%2$s."
+msgid "The database update process runs in the background and may take a little while, so please be patient. Advanced users can alternatively update via %1$s CLI%2$s."
+msgstr "Quá trình cập nhật cơ sở dữ liệu sẽ chạy nền và sẽ mất chút thời gian, hãy kiên nhẫn. Người dùng cao cấp có thể cập nhật thay thế qua %1$s CLI%2$s."
 
 #: includes/admin/notes/class-wc-notes-run-db-update.php:152
 #: includes/admin/views/html-notice-update.php:25
@@ -1456,8 +1456,8 @@ msgid "Allow personal data to be removed in bulk from orders"
 msgstr "Cho phép xóa dữ liệu cá nhân trong đơn hàng từ tác vụ"
 
 #: includes/admin/views/html-admin-page-status-report.php:59
-msgid "WordPress address (URL)"
-msgstr "Địa chỉ WordPress (URL)"
+msgid " address (URL)"
+msgstr "Địa chỉ  (URL)"
 
 #: includes/admin/views/html-admin-page-status-report.php:64
 msgid "Site address (URL)"
@@ -1801,97 +1801,97 @@ msgstr "hành động bị bỏ qua"
 msgid "This function should not be called before plugins_loaded."
 msgstr "Chức năng này không nên gọi trước plugins_loaded."
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_TaxonomyRegistrar.php:14
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore_TaxonomyRegistrar.php:14
 msgid "Action Group"
 msgstr "Nhóm Hành động"
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:42
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore_PostTypeRegistrar.php:42
 msgid "No actions found in trash"
 msgstr "Không có hành động nào được tìm thấy trong thùng rác"
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:41
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore_PostTypeRegistrar.php:41
 msgid "No actions found"
 msgstr "Không tìm thấy hành động nào"
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:40
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore_PostTypeRegistrar.php:40
 msgid "Search Scheduled Actions"
 msgstr "Tìm các Hành động được sắp đặt trước"
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:38
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore_PostTypeRegistrar.php:38
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore_PostTypeRegistrar.php:39
 msgid "View Action"
 msgstr "Xem Hành động"
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:37
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore_PostTypeRegistrar.php:37
 msgid "New Scheduled Action"
 msgstr "Hành động được Sắp đặt mới"
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:36
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore_PostTypeRegistrar.php:36
 msgid "Edit Scheduled Action"
 msgstr "Sửa Hành động được Sắp đặt"
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:34
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore_PostTypeRegistrar.php:34
 msgid "Add New Scheduled Action"
 msgstr "Thêm Hành động đươc Sắp đặt Mới"
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:32
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore_PostTypeRegistrar.php:32
 msgctxt "Admin menu name"
 msgid "Scheduled Actions"
 msgstr "Các Hành động được Sắp đặt"
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:31
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore_PostTypeRegistrar.php:31
 msgid "Scheduled Action"
 msgstr "Hành động được Sắp đặt"
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:20
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore_PostTypeRegistrar.php:20
 msgid "Scheduled actions are hooks triggered on a cetain date and time."
 msgstr "Các hành động được sắp đặt là các hook được kích hoạt vào một ngày và thời gian xác định."
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:51
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore_PostStatusRegistrar.php:51
 msgctxt "post"
 msgid "In-Progress"
 msgstr "Trong Quá trình"
 
 #. translators: %s: count
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:53
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore_PostStatusRegistrar.php:53
 msgid "In-Progress <span class=\"count\">(%s)</span>"
 msgid_plural "In-Progress <span class=\"count\">(%s)</span>"
 msgstr[0] "Trong Quá trình <span class=\"count\">(%s)</span>"
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:36
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore_PostStatusRegistrar.php:36
 msgctxt "post"
 msgid "Failed"
 msgstr "Thất bại"
 
 #: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:861
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:904
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore.php:904
 msgid "Invalid action ID. No status found."
 msgstr "ID hành động không hợp lệ. Không tìm thấy trạng thái nào."
 
 #. translators: %s: action ID
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:878
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore.php:878
 msgid "Unable to mark failure on action %s. Database error."
 msgstr "Không thể đánh dấu thất bại cho hành động %s. Lỗi cơ sở dữ liệu."
 
 #. translators: %s: action ID
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:852
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore.php:852
 msgid "Unable to unlock claim on action %s. Database error."
 msgstr "Không thể mở khoá yêu cầu cho hành động %s. Lỗi cơ sở dữ liệu."
 
 #. translators: %s: claim ID
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:824
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore.php:824
 msgid "Unable to unlock claim %s. Database error."
 msgstr "Không thể mở khoá yêu cầu %s. Lỗi cơ sở dữ liệu."
 
 #. translators: %s: group name
 #. translators: %s is the group name
 #: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:663
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:717
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore.php:717
 msgid "The group \"%s\" does not exist."
 msgstr "Nhóm \"%s\" không tồn tại."
 
 #: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:683
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:696
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore.php:696
 msgid "Unable to claim actions. Database error."
 msgstr "Không thể yêu cầu các hành động. Lỗi cơ sở dữ liệu."
 
@@ -1902,21 +1902,21 @@ msgstr "Không thể yêu cầu các hành động. Lỗi cơ sở dữ liệu."
 #: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:574
 #: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:797
 #: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:840
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:515
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:534
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:564
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:974
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore.php:515
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore.php:534
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore.php:564
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore.php:974
 msgid "Unidentified action %s"
 msgstr "Hành động không xác định %s"
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:101
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore.php:101
 msgid "Unable to save action."
 msgstr "Không thể lưu hành động."
 
 #. translators: %s: error message
 #. translators: %s: action error message
 #: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:86
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:49
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore.php:49
 #: packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
 msgid "Error saving action: %s"
 msgstr "Lỗi lưu hành động: %s"
@@ -1953,24 +1953,24 @@ msgid "action created"
 msgstr "hành động được tạo"
 
 #. translators: %d refers to the total number of taskes completed
-#: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:153
+#: packages/action-scheduler/classes/_CLI/ActionScheduler_CLI_Scheduler_command.php:153
 msgid "%d scheduled task completed."
 msgid_plural "%d scheduled tasks completed."
 msgstr[0] "%d nhiệm vụ sắp đặt được hoàn thành."
 
 #. translators: %s refers to the exception error message
-#: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:136
+#: packages/action-scheduler/classes/_CLI/ActionScheduler_CLI_Scheduler_command.php:136
 msgid "There was an error running the action scheduler: %s"
 msgstr "Có lỗi xảy ra khi chạy chương trình sắp đặt hành động: %s"
 
 #. translators: %d refers to the total number of batches executed
-#: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:117
+#: packages/action-scheduler/classes/_CLI/ActionScheduler_CLI_Scheduler_command.php:117
 msgid "%d batch executed."
 msgid_plural "%d batches executed."
 msgstr[0] "%d một loạt đã được xử lý."
 
 #. translators: %d refers to how many scheduled taks were found to run
-#: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:100
+#: packages/action-scheduler/classes/_CLI/ActionScheduler_CLI_Scheduler_command.php:100
 msgid "Found %d scheduled task"
 msgid_plural "Found %d scheduled tasks"
 msgstr[0] "Tìm thấy %d nhiệm vụ được sắp đặt"
@@ -1980,30 +1980,30 @@ msgid "Attempting to reduce used memory..."
 msgstr "Đang thử giảm bộ nhớ đã dùng..."
 
 #. translators: 1: action ID 2: exception message
-#: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:170
+#: packages/action-scheduler/classes/_CLI/ActionScheduler_CLI_QueueRunner.php:170
 msgid "Error processing action %1$s: %2$s"
 msgstr "Lỗi xử lý hành động %1$s: %2$s"
 
 #. translators: %s refers to the action ID
-#: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:138
+#: packages/action-scheduler/classes/_CLI/ActionScheduler_CLI_QueueRunner.php:138
 msgid "Started processing action %s"
 msgstr "Đã bắt đầu xử lý hành động %s"
 
-#: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:113
+#: packages/action-scheduler/classes/_CLI/ActionScheduler_CLI_QueueRunner.php:113
 msgid "The claim has been lost. Aborting current batch."
 msgstr "Yêu cầu đã mất. Đang huỷ lô hiện tại."
 
 #. translators: %d: amount of actions
-#: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:93
+#: packages/action-scheduler/classes/_CLI/ActionScheduler_CLI_QueueRunner.php:93
 msgid "Running %d action"
 msgid_plural "Running %d actions"
 msgstr[0] "Đang chạy %d hành động"
 
-#: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:61
+#: packages/action-scheduler/classes/_CLI/ActionScheduler_CLI_QueueRunner.php:61
 msgid "There are too many concurrent batches."
 msgstr "Có quá nhiều lô cùng một lúc."
 
-#: packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:59
+#: packages/action-scheduler/classes/_CLI/ActionScheduler_CLI_QueueRunner.php:59
 msgid "There are too many concurrent batches, but the run is forced to continue."
 msgstr "Có quá nhiều lô cùng một lúc, nhưng quá trình buộc phải tiếp tục."
 
@@ -2023,7 +2023,7 @@ msgstr "Trong quá trình"
 msgid "Pending"
 msgstr "Đang chờ xử lý"
 
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:318
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore.php:318
 msgid "Invalid schedule. Cannot save action."
 msgstr "Sắp đặt không hợp lệ. Không thể lưu hành động."
 
@@ -2106,8 +2106,8 @@ msgstr "Hook"
 #: packages/action-scheduler/classes/ActionScheduler_AdminView.php:75
 #: packages/action-scheduler/classes/ActionScheduler_AdminView.php:76
 #: packages/action-scheduler/classes/ActionScheduler_ListTable.php:89
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:19
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:30
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore_PostTypeRegistrar.php:19
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore_PostTypeRegistrar.php:30
 msgid "Scheduled Actions"
 msgstr "Các Hành động đã sắp đặt"
 
@@ -2714,7 +2714,7 @@ msgstr "Bất kỳ &quot;%1$s&quot; phương thức"
 msgid "Take payments in person via checks. This offline gateway can also be useful to test purchases."
 msgstr "Thực hiện thanh toán trực tiếp qua séc. Phương thức thanh toán này rất hữu ích trong việc kiểm tra đơn hàng."
 
-#: includes/data-stores/class-wc-data-store-wp.php:553
+#: includes/data-stores/class-wc-data-store-.php:553
 msgctxt "Comma-separated list of search stopwords in your language"
 msgid "about,an,are,as,at,be,by,com,for,from,how,in,is,it,of,on,or,that,the,this,to,was,what,when,where,who,will,with,www"
 msgstr "về,một,là,như,tại,được,bởi,com,cho,từ,như thế nào,trong,là,nó,của,trên,hoặc,đó,này,đến,là,những gì,khi nào,ở đâu,ai,sẽ,với,www"
@@ -3040,25 +3040,25 @@ msgid "WooCommerce will run under this version of PHP, however, some features su
 msgstr "WooCommerce sẽ chạy phiên bản PHP này, tuy nhiên, một số tính năng như geolocation không tương thích. Hỗ trợ cho phiên bản này sẽ bị ngừng trong bản phát hành tới. Chúng tôi khuyên bạn nên sử dụng phiên bản PHP 7.2 hoặc cao hơn để tối ưu hiệu suất và bảo mật."
 
 #: includes/admin/views/html-admin-page-status-report.php:201
-msgid "WordPress cron"
-msgstr "WordPress cron"
+msgid " cron"
+msgstr " cron"
 
 #: includes/admin/views/html-admin-page-status-report.php:176
-msgid "WordPress memory limit"
-msgstr "Giới hạn bộ nhớ WordPress"
+msgid " memory limit"
+msgstr "Giới hạn bộ nhớ "
 
 #: includes/admin/views/html-admin-page-status-report.php:171
-msgid "WordPress multisite"
-msgstr "WordPress multiside"
+msgid " multisite"
+msgstr " multiside"
 
 #. Translators: %1$s: Current version, %2$s: New version
 #: includes/admin/views/html-admin-page-status-report.php:163
-msgid "%1$s - There is a newer version of WordPress available (%2$s)"
-msgstr "%1$s - Một phiên bản mới của WordPress đang có sẵn (%2$s)"
+msgid "%1$s - There is a newer version of  available (%2$s)"
+msgstr "%1$s - Một phiên bản mới của  đang có sẵn (%2$s)"
 
 #: includes/admin/views/html-admin-page-status-report.php:143
-msgid "WordPress version"
-msgstr "Phiên bản WordPress"
+msgid " version"
+msgstr "Phiên bản "
 
 #: includes/admin/views/html-admin-page-status-report.php:69
 msgid "WooCommerce version"
@@ -3092,8 +3092,8 @@ msgid "Legacy API"
 msgstr "Legacy API"
 
 #: includes/admin/views/html-admin-page-status-report.php:190
-msgid "WordPress debug mode"
-msgstr "Chế độ gỡ lỗi WordPress"
+msgid " debug mode"
+msgstr "Chế độ gỡ lỗi "
 
 #: includes/admin/settings/class-wc-settings-accounts.php:215
 msgid "Retain completed orders"
@@ -5045,8 +5045,8 @@ msgid "Finish setting up your store"
 msgstr "Hoàn tất cài đặt cửa hàng của bạn"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:2113
-msgid "By connecting your site you agree to our fascinating <a href=\"%1$s\" target=\"_blank\">Terms of Service</a> and to <a href=\"%2$s\" target=\"_blank\">share details</a> with WordPress.com"
-msgstr "Bắng cách kết nối trang web của bạn, bạn đã đồng ý với <a href=\"%1$s\" target=\"_blank\">Điều khoản dịch vụ</a> của chúng tôi và đồng ý <a href=\"%2$s\" target=\"_blank\">chia sẻ thông tin</a> với WordPress.com"
+msgid "By connecting your site you agree to our fascinating <a href=\"%1$s\" target=\"_blank\">Terms of Service</a> and to <a href=\"%2$s\" target=\"_blank\">share details</a> with .com"
+msgstr "Bắng cách kết nối trang web của bạn, bạn đã đồng ý với <a href=\"%1$s\" target=\"_blank\">Điều khoản dịch vụ</a> của chúng tôi và đồng ý <a href=\"%2$s\" target=\"_blank\">chia sẻ thông tin</a> với .com"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:2044
 msgid "Sorry, we couldn't connect your store to Jetpack"
@@ -7390,20 +7390,20 @@ msgid "WooCommerce version."
 msgstr "Phiên bản WooCommerce."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:170
-msgid "Is WordPress multisite?"
-msgstr "Có phải WordPress multisite?"
+msgid "Is  multisite?"
+msgstr "Có phải  multisite?"
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:176
-msgid "WordPress memory limit."
-msgstr "Giới hạn bộ nhớ WordPress."
+msgid " memory limit."
+msgstr "Giới hạn bộ nhớ ."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:182
-msgid "Is WordPress debug mode active?"
-msgstr "Chế độ gỡ lỗi WordPress đang hoạt động?"
+msgid "Is  debug mode active?"
+msgstr "Chế độ gỡ lỗi  đang hoạt động?"
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:194
-msgid "WordPress language."
-msgstr "Ngôn ngữ WordPress."
+msgid " language."
+msgstr "Ngôn ngữ ."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:260
 msgid "Default timezone."
@@ -7473,8 +7473,8 @@ msgid "Resource cannot be created. Check to make sure 'order' and 'name' are pre
 msgstr "Resource cannot be created. Check to make sure 'order' and 'name' are present."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:188
-msgid "Are WordPress cron jobs enabled?"
-msgstr "Are WordPress cron jobs enabled?"
+msgid "Are  cron jobs enabled?"
+msgstr "Are  cron jobs enabled?"
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:158
 msgid "Is log directory writable?"
@@ -7516,8 +7516,8 @@ msgid "Log directory."
 msgstr "Log directory."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:164
-msgid "WordPress version."
-msgstr "WordPress version."
+msgid " version."
+msgstr " version."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:266
 msgid "Is fsockopen/cURL enabled?"
@@ -8071,8 +8071,8 @@ msgstr "REST API version used in the webhook deliveries."
 
 #. translators: %d: rest api version number
 #: includes/admin/settings/views/html-webhooks-edit.php:144
-msgid "WP REST API Integration v%d"
-msgstr "WP REST API Integration v%d"
+msgid " REST API Integration v%d"
+msgstr " REST API Integration v%d"
 
 #: includes/admin/settings/views/html-settings-tax.php:134
 msgctxt "Pagination"
@@ -9690,7 +9690,7 @@ msgstr "Mark Bosnia và Herzegovina"
 
 #. translators: %d: interval
 #: includes/abstracts/class-wc-background-process.php:172
-#: includes/libraries/wp-background-process.php:423
+#: includes/libraries/-background-process.php:423
 msgid "Every %d minutes"
 msgstr "Mỗi %d phút"
 
@@ -10054,7 +10054,7 @@ msgstr "Quay lại email"
 msgid "Filter coupons"
 msgstr "Lọc mã ưu đãi"
 
-#. translators: 1: plugin name, 2: URL to WP plugin page.
+#. translators: 1: plugin name, 2: URL to  plugin page.
 #: includes/class-wc-install.php:1894
 msgid "%1$s was installed but could not be activated. <a href=\"%2$s\">Please activate it manually by clicking here.</a>"
 msgstr "%1$s đã được cài đặt nhưng không thể kích hoạt. <a href=\"%2$s\">Hãy kích hoạt theo cách thủ công bằng cách nhấp vào đây.</a>"
@@ -12255,8 +12255,8 @@ msgstr "Ví dụ:"
 
 #. Translators: %1$s: MySQL version, %2$s: Recommended MySQL version.
 #: includes/admin/views/html-admin-page-status-report.php:305
-msgid "WordPress requirements"
-msgstr "Các yêu cầu WordPress"
+msgid " requirements"
+msgstr "Các yêu cầu "
 
 #. Translators: %s: classname and link.
 #: includes/admin/views/html-admin-page-status-report.php:382
@@ -12280,8 +12280,8 @@ msgid "The version of cURL installed on your server."
 msgstr "Phiên bản cURL được cài trên máy chủ của bạn."
 
 #: includes/admin/views/html-admin-page-status-report.php:202
-msgid "Displays whether or not WP Cron Jobs are enabled."
-msgstr "Hiển thị xem có bật WP Cron Jobs hay không."
+msgid "Displays whether or not  Cron Jobs are enabled."
+msgstr "Hiển thị xem có bật  Cron Jobs hay không."
 
 #: includes/admin/views/html-admin-page-status-report.php:915
 msgid "Archive template"
@@ -12299,12 +12299,12 @@ msgstr "Mẫu lưu trữ"
 #: includes/admin/views/html-notice-template-check.php:15
 #: includes/admin/views/html-notice-updated.php:14
 #: includes/admin/views/html-notice-uploads-directory-is-unprotected.php:15
-#: includes/admin/views/html-notice-wp-php-minimum-requirements.php:11
+#: includes/admin/views/html-notice--php-minimum-requirements.php:11
 #: includes/wc-template-functions.php:1062
 #: src/Internal/Admin/Notes/UnsecuredReportFiles.php:57
 #: src/Internal/Admin/WCPayPromotion/WCPaymentGatewayPreInstallWCPayPromotion.php:53
 #: assets/client/admin/experimental/index.js:2
-#: assets/client/admin/wp-admin-scripts/payment-method-promotions.js:2
+#: assets/client/admin/-admin-scripts/payment-method-promotions.js:2
 msgid "Dismiss"
 msgstr "Bỏ qua"
 
@@ -12508,8 +12508,8 @@ msgid "Shipping location(s)"
 msgstr "Địa điểm giao hàng"
 
 #: includes/admin/settings/class-wc-settings-general.php:172
-msgid "This option determines a customers default location. The MaxMind GeoLite Database will be periodically downloaded to your wp-content directory if using geolocation."
-msgstr "Tùy chọn này xác định địa điểm mặc định của khách hàng. Cơ sở dữ liệu GeoLite MaxMind sẽ được định kỳ tải xuống thư mục nội dung-wp của bạn nếu sử dụng định vị theo vị trí địa lý."
+msgid "This option determines a customers default location. The MaxMind GeoLite Database will be periodically downloaded to your -content directory if using geolocation."
+msgstr "Tùy chọn này xác định địa điểm mặc định của khách hàng. Cơ sở dữ liệu GeoLite MaxMind sẽ được định kỳ tải xuống thư mục nội dung- của bạn nếu sử dụng định vị theo vị trí địa lý."
 
 #: includes/admin/settings/class-wc-settings-shipping.php:117
 msgid "Calculations"
@@ -12710,8 +12710,8 @@ msgid "Required to be true, as resource does not support trashing."
 msgstr "Yêu cầu phải đúng, vì tài nguyên không hỗ trợ xóa hẳn."
 
 #: includes/rest-api/Controllers/Version3/class-wc-rest-posts-controller.php:707
-msgid "Use WP Query arguments to modify the response; private query vars require appropriate authorization."
-msgstr "Sử dụng tham số Truy vấn WP để sửa đổi phản hồi; các biến thể riêng của truy vấn yêu cầu phải có ủy quyền phù hợp."
+msgid "Use  Query arguments to modify the response; private query vars require appropriate authorization."
+msgstr "Sử dụng tham số Truy vấn  để sửa đổi phản hồi; các biến thể riêng của truy vấn yêu cầu phải có ủy quyền phù hợp."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php:720
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:621
@@ -15362,7 +15362,7 @@ msgstr "Phí giao hàng"
 #. translators: %s: number of orders
 #. translators: %s: count
 #: includes/class-wc-post-types.php:623
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:38
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore_PostStatusRegistrar.php:38
 msgid "Failed <span class=\"count\">(%s)</span>"
 msgid_plural "Failed <span class=\"count\">(%s)</span>"
 msgstr[0] "Thất bại  <span class=\"count\">(%s)</span>"
@@ -15563,7 +15563,7 @@ msgid "Partial refund subject"
 msgstr "Tiêu đề hoàn một phần tiền"
 
 #. translators: %s: admin email
-#. translators: %s: WP admin email
+#. translators: %s:  admin email
 #: includes/emails/class-wc-email-cancelled-order.php:164
 #: includes/emails/class-wc-email-failed-order.php:162
 #: includes/emails/class-wc-email-new-order.php:184
@@ -15822,8 +15822,8 @@ msgid "%s has been removed from your cart because it can no longer be purchased.
 msgstr "%s đã được xóa bỏ khỏi giỏ hàng của bạn vì nó không còn có thể mua được nữa. Vui lòng liên hệ chúng tôi nếu bạn cần hỗ trợ."
 
 #: includes/class-wc-cart.php:599
-msgid "Get cart should not be called before the wp_loaded action."
-msgstr "Lấy giỏ hàng không được gọi trước khi wp_loaded hoạt động."
+msgid "Get cart should not be called before the _loaded action."
+msgstr "Lấy giỏ hàng không được gọi trước khi _loaded hoạt động."
 
 #. translators: %s: product name
 #: includes/class-wc-cart.php:1184
@@ -16793,20 +16793,20 @@ msgid "The version of WooCommerce installed on your site."
 msgstr "Phiên bản của WooCommerce cài trên trang web của bạn."
 
 #: includes/admin/views/html-admin-page-status-report.php:144
-msgid "The version of WordPress installed on your site."
-msgstr "Phiên bản WordPress cài đặt trên trang của bạn."
+msgid "The version of  installed on your site."
+msgstr "Phiên bản  cài đặt trên trang của bạn."
 
 #: includes/admin/views/html-admin-page-status-report.php:172
-msgid "Whether or not you have WordPress Multisite enabled."
-msgstr "Có kích hoạt WordPress Multisite hay không."
+msgid "Whether or not you have  Multisite enabled."
+msgstr "Có kích hoạt  Multisite hay không."
 
 #: includes/admin/views/html-admin-page-status-report.php:177
 msgid "The maximum amount of memory (RAM) that your site can use at one time."
 msgstr "Bộ nhớ tối đa (RAM) mà trang web của bạn có thể sử dụng tại một thời điểm."
 
 #: includes/admin/views/html-admin-page-status-report.php:191
-msgid "Displays whether or not WordPress is in Debug Mode."
-msgstr "Hiển thị WordPress đang trong Chế độ Sửa lỗi hay không."
+msgid "Displays whether or not  is in Debug Mode."
+msgstr "Hiển thị  đang trong Chế độ Sửa lỗi hay không."
 
 #: includes/admin/views/html-admin-page-status-report.php:212
 msgid "Language"
@@ -16841,8 +16841,8 @@ msgid "The version of MySQL installed on your hosting server."
 msgstr "Phiên bản MySQL cài đặt trên máy chủ hosting."
 
 #: includes/admin/views/html-admin-page-status-report.php:315
-msgid "The largest filesize that can be uploaded to your WordPress installation."
-msgstr "Lưu lượng tập tin lớn nhất có thể tải lên cài đặt WordPress của bạn."
+msgid "The largest filesize that can be uploaded to your  installation."
+msgstr "Lưu lượng tập tin lớn nhất có thể tải lên cài đặt  của bạn."
 
 #: includes/admin/views/html-admin-page-status-report.php:320
 msgid "The default timezone for your server."
@@ -17643,8 +17643,8 @@ msgid "Copy for support"
 msgstr "Sao chép để được hỗ trợ"
 
 #: includes/admin/views/html-admin-page-status-report.php:54
-msgid "WordPress environment"
-msgstr "Môi trường WordPress"
+msgid " environment"
+msgstr "Môi trường "
 
 #: includes/admin/views/html-admin-page-status-report.php:853
 msgid "Child theme"
@@ -17670,8 +17670,8 @@ msgid "Several WooCommerce extensions can write logs which makes debugging probl
 msgstr "Một số phần mở rộng của WooCommerce có thể ghi nhật ký để giúp việc gỡ lỗi dễ dàng hơn. Thư mục này phải có thể ghi được để thực hiện được điều này."
 
 #: includes/admin/views/html-admin-page-status-report.php:213
-msgid "The current language used by WordPress. Default = English"
-msgstr "Ngôn ngữ hiện tại được dùng trong WordPress. Mặc định = Tiếng Anh"
+msgid "The current language used by . Default = English"
+msgstr "Ngôn ngữ hiện tại được dùng trong . Mặc định = Tiếng Anh"
 
 #: includes/admin/views/html-admin-page-status-report.php:721
 msgid "The decimal separator of displayed prices."
@@ -18574,8 +18574,8 @@ msgid "We recommend Storefront, the <em>official</em> WooCommerce theme."
 msgstr "Chúng tôi khuyên bạn nên dùng Storefront, là giao diện WooCommerce <em>chính thức</em>."
 
 #: includes/admin/views/html-admin-page-addons.php:145
-msgid "Storefront is an intuitive, flexible and <strong>free</strong> WordPress theme offering deep integration with WooCommerce and many of the most popular customer-facing extensions."
-msgstr "Storefront là một giao diện WordPress trực quan, linh hoạt, và <strong>miễn phí </strong> cho phép tích hợp sâu với WooCommerce và rất nhiều phần mở rộng thông dụng tương tác với khách hàng."
+msgid "Storefront is an intuitive, flexible and <strong>free</strong>  theme offering deep integration with WooCommerce and many of the most popular customer-facing extensions."
+msgstr "Storefront là một giao diện  trực quan, linh hoạt, và <strong>miễn phí </strong> cho phép tích hợp sâu với WooCommerce và rất nhiều phần mở rộng thông dụng tương tác với khách hàng."
 
 #: includes/admin/settings/views/html-webhooks-edit.php:82
 msgid "Product deleted"
@@ -19092,7 +19092,7 @@ msgstr "Thêm phí"
 #: assets/client/admin/app/index.js:2
 #: assets/client/admin/chunks/homescreen.js:1
 #: assets/client/admin/chunks/profile-wizard.js:1
-#: assets/client/admin/wp-admin-scripts/beta-features-tracking-modal.js:1
+#: assets/client/admin/-admin-scripts/beta-features-tracking-modal.js:1
 msgid "Save"
 msgstr "Lưu"
 
@@ -20091,8 +20091,8 @@ msgid "This tool will clear the product/shop transients cache."
 msgstr "Công cụ này sẽ xóa hết bộ nhớ đệm tạm thời của sản phẩm/cửa hàng."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:134
-msgid "This tool will clear ALL expired transients from WordPress."
-msgstr "Công cụ này sẽ xóa hết TẤT CẢ các bộ nhớ đệm tạm thời đã hết hạn từ WordPress."
+msgid "This tool will clear ALL expired transients from ."
+msgstr "Công cụ này sẽ xóa hết TẤT CẢ các bộ nhớ đệm tạm thời đã hết hạn từ ."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:152
 msgid "Term counts"
@@ -20493,7 +20493,7 @@ msgstr "Ghi chú tới khách hàng"
 #: includes/admin/meta-boxes/views/html-order-items.php:426
 #: includes/admin/meta-boxes/views/html-order-items.php:482
 #: includes/admin/meta-boxes/views/html-product-data-attributes.php:28
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore_PostTypeRegistrar.php:33
 #: templates/myaccount/my-address.php:63
 msgid "Add"
 msgstr "Thêm"
@@ -22562,7 +22562,7 @@ msgstr "Sắp xếp theo"
 #: includes/admin/settings/views/html-admin-page-shipping-zones.php:78
 #: includes/class-wc-post-types.php:326 includes/class-wc-post-types.php:395
 #: includes/class-wc-post-types.php:460
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:35
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_PostStore_PostTypeRegistrar.php:35
 #: templates/myaccount/my-address.php:63
 #: packages/woocommerce-blocks/assets/js/blocks/attribute-filter/edit.js:66
 #: packages/woocommerce-blocks/build/attribute-filter.js:37
@@ -22951,8 +22951,8 @@ msgid "Add attribute"
 msgstr "Thêm thuộc tính"
 
 #: includes/admin/class-wc-admin-help.php:77
-msgid "WordPress.org project"
-msgstr "Dự án WordPress.org"
+msgid ".org project"
+msgstr "Dự án .org"
 
 #: includes/admin/class-wc-admin-importers.php:117
 msgid "WooCommerce tax rates (CSV)"
@@ -23177,8 +23177,8 @@ msgid "WooCommerce endpoints"
 msgstr "Điểm cuối kết nối WooCommerce"
 
 #: includes/admin/class-wc-admin-permalink-settings.php:133
-msgid "Enter a custom base to use. A base must be set or WordPress will use default instead."
-msgstr "Nhập một mặc định riêng để sử dụng. Mặc định riêng cần được thiết lập trong WordPress nếu không WordPress sẽ dùng mặc định của WordPress."
+msgid "Enter a custom base to use. A base must be set or  will use default instead."
+msgstr "Nhập một mặc định riêng để sử dụng. Mặc định riêng cần được thiết lập trong  nếu không  sẽ dùng mặc định của ."
 
 #: includes/admin/class-wc-admin-help.php:79
 msgid "Official theme"

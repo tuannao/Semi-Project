@@ -334,8 +334,8 @@ msgid "Mobile Menu"
 msgstr "Menu di động"
 
 #: footer.php:39
-msgid "Powered by WordPress"
-msgstr "Xây dựng bằng WordPress"
+msgid "Powered by "
+msgstr "Xây dựng bằng "
 
 #: comments.php:75
 msgid "Older Comments"
@@ -530,15 +530,15 @@ msgstr "Trong các trang lưu trữ, bài viết hiển thị:"
 #. Author URI of the theme
 #: footer.php:38
 #, gp-priority: low
-msgid "https://wordpress.org/"
-msgstr "https://vi.wordpress.org/"
+msgid "https://.org/"
+msgstr "https://vi..org/"
 
 #. Author of the theme
 #, gp-priority: low
-msgid "the WordPress team"
-msgstr "Nhóm Phát Triển WordPress"
+msgid "the  team"
+msgstr "Nhóm Phát Triển "
 
 #. Theme URI of the theme
 #, gp-priority: low
-msgid "https://wordpress.org/themes/twentytwenty/"
-msgstr "https://wordpress.org/themes/twentytwenty/"
+msgid "https://.org/themes/twentytwenty/"
+msgstr "https://.org/themes/twentytwenty/"

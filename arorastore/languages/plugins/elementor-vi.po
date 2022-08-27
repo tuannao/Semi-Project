@@ -716,7 +716,7 @@ msgid "Continue reading %s"
 msgstr "Chi tiết %s"
 
 #. translators: %d: Interval in minutes.
-#: core/base/background-process/wp-background-process.php:438
+#: core/base/background-process/-background-process.php:438
 msgid "Every %d Minutes"
 msgstr "Mỗi %d phút"
 
@@ -1184,8 +1184,8 @@ msgid "Elementor Debugger"
 msgstr "Trình gỡ lỗi Elementor"
 
 #: core/admin/admin.php:174 assets/js/admin.js:1185 assets/js/gutenberg.js:114
-msgid "Back to WordPress Editor"
-msgstr "Quay trở lại trình chỉnh sửa trong WordPress"
+msgid "Back to  Editor"
+msgstr "Quay trở lại trình chỉnh sửa trong "
 
 #. translators: %s: Document title.
 #: core/documents-manager.php:367
@@ -1735,12 +1735,12 @@ msgid "Update Notification"
 msgstr "Cập nhật thông báo"
 
 #. Author URI of the plugin
-msgid "https://elementor.com/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
-msgstr "https://elementor.com/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+msgid "https://elementor.com/?utm_source=-plugins&utm_campaign=author-uri&utm_medium=-dash"
+msgstr "https://elementor.com/?utm_source=-plugins&utm_campaign=author-uri&utm_medium=-dash"
 
 #. Plugin URI of the plugin
-msgid "https://elementor.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
-msgstr "https://elementor.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+msgid "https://elementor.com/?utm_source=-plugins&utm_campaign=plugin-uri&utm_medium=-dash"
+msgstr "https://elementor.com/?utm_source=-plugins&utm_campaign=plugin-uri&utm_medium=-dash"
 
 #: modules/history/views/history-panel-template.php:17
 msgid "Switch to Revisions tab for older versions"
@@ -1907,10 +1907,10 @@ msgstr "Vị trí"
 msgid "Experiencing an issue with Elementor version %s? Rollback to a previous version before the issue appeared."
 msgstr "Bạn gặp sự cố với phiên bản Elementor %s? Khôi phục phiên bản trước đó trước khi vấn đề xuất hiện."
 
-#. translators: %s: WordPress version.
+#. translators: %s:  version.
 #: elementor.php:97
-msgid "Elementor requires WordPress version %s+. Because you are using an earlier version, the plugin is currently NOT RUNNING."
-msgstr "Elementor yêu cầu phiên bản WordPress %s+. Vì bạn đang sử dụng phiên bản cũ hơn nên plugin hiện tại KHÔNG CHẠY."
+msgid "Elementor requires  version %s+. Because you are using an earlier version, the plugin is currently NOT RUNNING."
+msgstr "Elementor yêu cầu phiên bản  %s+. Vì bạn đang sử dụng phiên bản cũ hơn nên plugin hiện tại KHÔNG CHẠY."
 
 #: includes/settings/settings.php:527
 msgid "Use internal CSS that is embedded in the head of the page. For troubleshooting server configuration conflicts and managing development environments."
@@ -2270,14 +2270,14 @@ msgid "Checking this box will disable Elementor's Default Colors, and make Eleme
 msgstr "Đánh dấu này sẽ tắt màu sắc mặc định của Elementor, và kế thừa màu sắc của theme."
 
 #: includes/settings/tools.php:327
-msgid "Enter your old and new URLs for your WordPress installation, to update all Elementor data (Relevant for domain transfers or move to 'HTTPS')."
-msgstr "Nhập URL cũ và mới của bạn để cài đặt WordPress, cập nhật tất cả dữ liệu Elementor (Có liên quan đến chuyển tên miền hoặc chuyển sang 'HTTPS')."
+msgid "Enter your old and new URLs for your  installation, to update all Elementor data (Relevant for domain transfers or move to 'HTTPS')."
+msgstr "Nhập URL cũ và mới của bạn để cài đặt , cập nhật tất cả dữ liệu Elementor (Có liên quan đến chuyển tên miền hoặc chuyển sang 'HTTPS')."
 
 #: includes/settings/tools.php:323
 msgid "Update Site Address (URL)"
 msgstr "Cập nhật địa chỉ trang web (URL)"
 
-#. translators: %s: WordPress backups documentation.
+#. translators: %s:  backups documentation.
 #: includes/settings/tools.php:313
 msgid "<strong>Important:</strong> It is strongly recommended that you <a target=\"_blank\" href=\"%s\">backup your database</a> before using Replace URL."
 msgstr "<strong>Quan trọng:</strong> Chúng tôi khuyên bạn nên <a target=\"_blank\" href=\"%s\">sao lưu cơ sở dữ liệu</a> trước khi sử dụng Replace URL"
@@ -2631,7 +2631,7 @@ msgstr "Mẫu đã lưu"
 msgid "Template Library"
 msgstr "Thư viện mẫu"
 
-#. translators: %s: WordPress child themes documentation.
+#. translators: %s:  child themes documentation.
 #: modules/system-info/reporters/theme.php:207
 msgctxt "System Info"
 msgid "If you want to modify the source code of your theme, we recommend using a <a href=\"%s\">child theme</a>."
@@ -2959,8 +2959,8 @@ msgid "Display"
 msgstr "Hiển thị"
 
 #: includes/controls/image-dimensions.php:81
-msgid "The server does not have ImageMagick or GD installed and/or enabled! Any of these libraries are required for WordPress to be able to resize images. Please contact your server administrator to enable this before continuing."
-msgstr "Máy chủ chưa cài đặt hoặc kích hoạt ImageMagick hoặc GD! Bất kỳ thư viện nào trong số đó là bắt buộc cho WordPress để có thể thay đổi kích thước hình ảnh. Vui lòng liên hệ người quản trị máy chủ để bật tính năng trên trước khi tiếp tục."
+msgid "The server does not have ImageMagick or GD installed and/or enabled! Any of these libraries are required for  to be able to resize images. Please contact your server administrator to enable this before continuing."
+msgstr "Máy chủ chưa cài đặt hoặc kích hoạt ImageMagick hoặc GD! Bất kỳ thư viện nào trong số đó là bắt buộc cho  để có thể thay đổi kích thước hình ảnh. Vui lòng liên hệ người quản trị máy chủ để bật tính năng trên trước khi tiếp tục."
 
 #: includes/controls/groups/image-size.php:295
 msgctxt "Image Size Control"
@@ -3066,7 +3066,7 @@ msgstr "Danh sách phông chữ được sử dụng nếu phông chữ đã ch�
 msgid "Pojo Themes"
 msgstr "Giao diện Pojo"
 
-#: includes/widgets/wordpress.php:234
+#: includes/widgets/.php:234
 msgid "Form"
 msgstr "Biểu mẫu"
 
@@ -3896,8 +3896,8 @@ msgid "Link Color"
 msgstr "Màu liên kết"
 
 #: includes/managers/elements.php:334
-msgid "WordPress"
-msgstr "WordPress"
+msgid ""
+msgstr ""
 
 #: includes/widgets/image-carousel.php:164
 #: includes/widgets/image-carousel.php:390
@@ -4745,8 +4745,8 @@ msgid "Post Types"
 msgstr "Kiểu bài"
 
 #: modules/gutenberg/module.php:97
-msgid "&#8592; Back to WordPress Editor"
-msgstr "&#8592; Quay lại Trình chỉnh sửa WordPress"
+msgid "&#8592; Back to  Editor"
+msgstr "&#8592; Quay lại Trình chỉnh sửa "
 
 #: includes/controls/groups/background.php:499
 msgctxt "Background Control"

@@ -114,8 +114,8 @@ msgid "Built with Storefront &amp; WooCommerce"
 msgstr "Tạo bởi Storefront &amp; WooCommerce"
 
 #: inc/storefront-template-functions.php:142
-msgid "WooCommerce - The Best eCommerce Platform for WordPress"
-msgstr "WooCommerce - Nền tảng thương mại điện tử tốt nhất cho WordPress"
+msgid "WooCommerce - The Best eCommerce Platform for "
+msgstr "WooCommerce - Nền tảng thương mại điện tử tốt nhất cho "
 
 #: inc/nux/class-storefront-nux-guided-tour.php:126
 msgid "Organize your menus by adding Pages, Categories, Tags, and Custom Links."
@@ -699,8 +699,8 @@ msgstr "Nền"
 
 #. translators: 1: start <a> tag, 2: end <a> tag
 #: inc/customizer/class-storefront-customizer-control-more.php:43
-msgid "Why not leave us a review on %1$sWordPress.org%2$s?  We'd really appreciate it!"
-msgstr "Hãy để lại cho chúng tôi một đánh giá trên %1$sWordPress.org%2$s? Chúng tôi rất cảm kích điều đó!"
+msgid "Why not leave us a review on %1$s.org%2$s?  We'd really appreciate it!"
+msgstr "Hãy để lại cho chúng tôi một đánh giá trên %1$s.org%2$s? Chúng tôi rất cảm kích điều đó!"
 
 #. translators: 1: Storefront, 2: start <a> tag, 3: Storefront, 4: end <a> tag
 #: inc/customizer/class-storefront-customizer-control-more.php:29

@@ -1,5 +1,5 @@
 2022-08-12T09:28:34+00:00 ERROR Error getting data feed
-2022-08-12T09:28:34+00:00 ERROR WP_Error Object
+2022-08-12T09:28:34+00:00 ERROR _Error Object
 (
     [errors] => Array
         (
